@@ -1,0 +1,41 @@
+.folder {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.file-list {
+  margin-top: 20px;  
+}
+.file-icon {
+      width: 50px;
+
+}
+.overview {
+  position: inherit;
+  display: flex;
+}
+.title-file {
+height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.file {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+      border: solid white;
+    border-radius: 10px;
+}
+
+.file-details {
+  display: none;
+  padding: 10px 0;
+}
+
+.file.active .file-details {
+  display: block;
+  border-top: solid white;
+    padding: 20px;
+}

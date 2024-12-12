@@ -1,0 +1,71 @@
+table {
+  width: 100% !important;
+}
+/* Custom CSS to set the modal height to 80% of the viewport height */
+.myModal {
+  height: 80vh;
+  /* Set the maximum height to 80% of the viewport height */
+  overflow-y: auto;
+  /* Add vertical scrollbar if content overflows */
+  weight: 80vh;
+  /* Set the maximum height to 80% of the viewport height */
+
+}
+
+.modal-content {
+  color: black;
+}
+
+.modal-body {
+  max-width: 80vw;
+  max-height: 80vh;
+  overflow: overlay;
+}
+
+p {
+  white-space: break-spaces;
+}
+
+.titler {
+  font-weight: bold;
+  font-size: 20px;
+}
+.inline {
+      display: inline;
+
+}
+#jobs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div#jobsTable_filter {
+  display: none;
+}
+
+#jobsTable_paginate {
+  display: flex;
+  place-items: center;
+}
+
+a.paginate_button {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a#jobsTable_previous {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 5px solid;
+  padding: 5px;
+}
+
+a#jobsTable_next {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 5px solid;
+  padding: 5px;
+}

@@ -1,0 +1,7 @@
+.card.donation-box input[type="checkbox"] {
+  display: none; 
+}
+
+.card.donation-box input[type="checkbox"]:not(:checked) + .card-body {
+  display: none;
+}

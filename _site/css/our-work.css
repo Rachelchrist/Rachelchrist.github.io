@@ -1,0 +1,67 @@
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+.work {
+  padding: 10px;
+
+}
+
+.accordion {
+  border: solid black;
+  margin: 10px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion:nth-child(odd) button {
+  background: #6a359c;
+  color: white;
+  font-weight: bolder;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.accordion:nth-child(even) button {
+  background: white;
+  color: #6a359c;
+  font-weight: bolder;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.accordion:nth-child(odd) .accordion-body {
+  background: white;
+  color: #6a359c;
+  font-weight: bolder;
+}
+
+.accordion:nth-child(even) .accordion-body {
+  background: #6a359c;
+  color: white;
+  font-weight: bolder;
+}
+
+.accordion-body {
+  padding: 30px;
+}
+
+.accordion p {
+  white-space-collapse: preserve-breaks;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.img_news {
+  max-width: -webkit-fill-available;
+  border-radius: 10px;
+}
+.accordion:nth-child(even) .img_news {
+  border: solid white;
+}
+.accordion:nth-child(odd) .img_news {
+  border: solid #6a359c;
+}

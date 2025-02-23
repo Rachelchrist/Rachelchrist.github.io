@@ -1,0 +1,86 @@
+/* This is the menu bar on top  */
+.navbar {
+  background-color: #ffff !important;
+  border-bottom: 3px solid #6A359C;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dropdown-menu {
+  width: max-content;
+}
+
+/* .dropdown-menu > li::before {
+  content: "-";
+  font-size: 10px;
+  color: #000000;
+} */
+.navbar-collapse {
+  text-align: -webkit-center;
+}
+
+.logo_img {
+  width: 70px;
+  transition: transform .7s ease-in-out;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  /* border: 3px solid #ffffff;
+  border-radius: 50px; */
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Style for the little links */
+/* .nav-item {
+      margin-bottom: 15px;
+    border-bottom: solid;
+} */
+.nav-link {
+  color: #6A359C;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+}
+
+
+.donate-link {
+  text-decoration: none;
+  min-width: 40px;
+  color: white;
+  background: #6A359C;
+  padding: 10px;
+  min-width: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*  Small */
+@media (max-width: 576px) {
+  .logo_img {
+    width: 200px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+}
+
+/* Large  */
+@media (min-width: 992px) {
+  .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Append a version parameter to JavaScript files in index.html
+    RewriteRule ^index\.html$ - [S=1]
+    RewriteRule ^(.*\.js)$ $1?v=1 [L]
+</IfModule>

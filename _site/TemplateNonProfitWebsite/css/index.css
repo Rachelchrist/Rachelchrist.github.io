@@ -1,0 +1,93 @@
+/* This is the first section  */
+
+/* The title secetion text color  */
+
+
+/* Title section sub text */
+
+
+#information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  text-align: -webkit-center;
+  padding: 40px;
+}
+
+.info-box {
+  filter: invert(0);
+  font-weight: bold;
+  border: solid;
+  border-radius: 10px;
+  transition: box-shadow .5s;
+  padding: 20px;
+
+}
+
+.info-box>img {
+  width: 150px;
+}
+
+.info-box:hover {
+  box-shadow: -10px 4px 1px #0f0d10;
+  transition: box-shadow .5s;
+}
+
+@media (max-width: 750px) {
+  #information {
+    grid-template-columns: repeat(1, 1fr);
+    background: #7639a4;
+  }
+
+  .info-box {
+    max-width: 350px;
+    place-self: center;
+  }
+}
+
+/*  Mission */
+#section_split, .philosophy {
+  padding: 40px;
+}
+
+.section_split_info {
+  max-width: 700px;
+  align-self: center;
+}
+
+#section_split h2 {
+  margin-bottom: 20px;
+  color: #7639a4;
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+
+#section_split p {
+  line-height: 1.5;
+  color: #7639a4;
+  font-size: 1.5rem;
+
+}
+
+@media (max-width: 750px) {
+  #section_split_info h2 {
+    margin-bottom: 20px;
+    color: #7639a4;
+    font-weight: bold;
+    font-size: 2rem;
+
+  }
+
+  #section_split_info p {
+    line-height: 1.5;
+    color: #7639a4;
+    font-size: 1.2rem;
+
+  }
+}
+
+.section_split_img {
+  align-self: center;
+
+}

@@ -1,0 +1,77 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jobs - Company Name</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="description"
+      content="Description" />
+    <link rel="canonical" href="#!" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jobs - Company Name"" />
+    <meta property="og:description"
+      content="Description" />
+    <meta property="og:url" content="#!" />
+    <meta property="og:site_name" content="Site Name" />
+    <meta property="article:modified_time" content="2022-06-30T21:33:14+00:00" />
+    <meta property="og:image" content="/imgs/nav/final_logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="441" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="msapplication-TileImage" content="/imgs/nav/final_logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/jobs.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div id="loading">
+    <img src="imgs/loader.gif" alt="Loading...">
+  </div>
+  <header>
+  </header>
+  <section id='jobs'>
+    <div class="container">
+      <h1>Jobs</h1>
+      <input type="text" id='searcher' class="form-control mb-3" placeholder="Search jobs">
+      <div class="row">
+        <table id="jobsTable" class="table table-bordered table-hover">
+        </table>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-dialog-centered" style="max-width: 80vw; max-height: 80vh;" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body custom-modal-body">
+            <!-- Content of the modal goes here -->
+            <p id="modalDetails"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" onclick="location.href='apply.html?index=1'" class="btn btn-danger" data-bs-dismiss="modal">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+  <script src="js/comp.js?v=1"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jobs.js"></script>
+</body>
+
+</html>

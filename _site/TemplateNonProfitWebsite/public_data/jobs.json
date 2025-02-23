@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Job 1",
+    "location": "New York",
+    "company": "ABC",
+    "date": "8/21",
+    "contact": "abc@gmail.com",
+    "description": "Under the direct supervision of the Provincial Manager and project manager, The Parasocial worker or animator / Educator is responsible for the identification of the most vulnerable children for Nonformal education and PSS activities as per defined selection criteria, with the close collaboration of the social worker, by carrying out recreational, Psychosocial and nonformal educational activities with children and adolescents identified for the CFSs.\n\n• The children with specific needs are referred to the social workers for CMS.\n• Nonformal education carried out with children based on a proper plan and teaching methodology.\n• PSS activities are carried out with all registered children based on MPO and UNICEF PSS guidelines.\n• Keeping good coordination with social workers and for better implementation of the activities.\n• Children preparation for school integration particularly the children registered in CFS activities.\n• The beneficiaries are well aware of MPO and UNICEF projects and their activities.\n• Make sure during the beneficiaries selection the percentage of 45% returnees: 35 % IDP, 20% HC is considered.\n• Organize PSS activities with children considering COVID-19 measures and MPO guidelines."
+  },
+  {
+    "id": 2,
+    "title": "Job 2",
+    "location": "Remote",
+    "company": "123 Corp"
+  },
+  {
+    "id": 3,
+    "title": "Job 3",
+    "location": "San Francisco",
+    "company": "XYZ Ltd"
+  },
+  {
+    "id": 4,
+    "title": "Job 4",
+    "location": "New York",
+    "company": "DEF Corporation"
+  },
+  {
+    "id": 5,
+    "title": "Job 5",
+    "location": "Remote",
+    "company": "456 Inc"
+  },
+  {
+    "id": 2,
+    "title": "Job 2",
+    "location": "Remote",
+    "company": "123 Corp"
+  },
+  {
+    "id": 3,
+    "title": "Job 3",
+    "location": "San Francisco",
+    "company": "XYZ Ltd"
+  },
+  {
+    "id": 4,
+    "title": "Job 4",
+    "location": "New York",
+    "company": "DEF Corporation"
+  },
+  {
+    "id": 5,
+    "title": "Job 5",
+    "location": "Remote",
+    "company": "456 Inc"
+  },
+  {
+    "id": 2,
+    "title": "Job 2",
+    "location": "Remote",
+    "company": "123 Corp"
+  },
+  {
+    "id": 3,
+    "title": "Job 3",
+    "location": "San Francisco",
+    "company": "XYZ Ltd"
+  },
+  {
+    "id": 4,
+    "title": "Job 4",
+    "location": "New York",
+    "company": "DEF Corporation"
+  },
+  {
+    "id": 5,
+    "title": "Job 5",
+    "location": "Remote",
+    "company": "456 Inc"
+  }
+]

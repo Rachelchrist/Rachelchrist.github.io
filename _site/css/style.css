@@ -11,51 +11,6 @@
   justify-content: center;
 }
 
-.accordian {
-  border: 1px solid grey;
-}
-input {
-  display: none;
-}
-label {
-  font-size: 18px;
-  background-color:rgb(22, 22, 104);
-  display: block;
-  cursor: pointer;
-  padding: 10px 10px 10px 30px;
-  position: relative;
-  user-select: none;
-}
-label:before {
-  content: " ";
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent
-  transparent transparent black;
-  height: 0;
-  font-size: 0;
-  position: absolute;
-  top: 14px;
-  left: 10px;
-  transition: transform 0.25s;
-  transform-origin: 3px center;
-}
-.accordian div {
-  font-size: 14px;
-  padding: 10px;
-  height:0;
-  overflow:hidden;
-  opacity:0;
-}
-input:checked ~ label:before {
-  transform:rotate(90deg)
-}
-input:checked ~ div {
-  padding: 10px;
-  opacity: 1;
-  height: auto;
-}
-
 #loading>img {
   width: 200px;
 }

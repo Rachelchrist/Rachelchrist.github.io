@@ -93,7 +93,7 @@ form {
 
 }
 section:nth-child(odd) .nsub {
-  color: #7639a4 !important;
+  color: #263b80 !important;
   background-color: #ffffff !important;
 }
 section:nth-child(even) .nsub {
@@ -105,7 +105,7 @@ section:nth-child(even) .nsub {
     --bs-btn-bg: #ffffff; }
 
 .btn-secondary {
-    --bs-btn-bg: #7639a4;
+    --bs-btn-bg: #28e486;
     --bs-btn-color: #ffffff; }
 .btn:hover {
     color: white;

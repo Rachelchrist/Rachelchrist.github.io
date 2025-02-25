@@ -14,7 +14,7 @@ Home
   **Mission**
   **NewsLetter/Updates**
   **Footer**
-About US
+More Information & Resources 
   **Nav**
   **Footer**
 Our Work

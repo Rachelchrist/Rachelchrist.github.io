@@ -56,7 +56,7 @@ Built-in styles and scripts for common pages.
 
 ```sh
 └── TemplateNonProfitWebsite/
-    ├── about.html
+    ├── LPR.html
     ├── apply.html
     ├── component
     │   ├── footer.html
@@ -131,7 +131,7 @@ Built-in styles and scripts for common pages.
 				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/our-work.html'>our-work.html</a></b></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/about.html'>about.html</a></b></td>
+				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/LPR.html'>LPR.html</a></b></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/contact.html'>contact.html</a></b></td>

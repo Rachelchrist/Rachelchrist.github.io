@@ -20,13 +20,13 @@
 }
 
 section:nth-child(odd) {
-  background-color: #7639a4 !important;
+  background-color: #a45739 !important;
   color: #ffffff !important;
 }
 
 section:nth-child(even) {
   background-color: #ffffff !important;
-  color: #7639a4 !important;
+  color: #39a450 !important;
 }
 
 .more_button {
@@ -97,11 +97,11 @@ section:nth-child(odd) .nsub {
   background-color: #ffffff !important;
 }
 section:nth-child(even) .nsub {
-  background-color: #7639a4 !important;
+  background-color: #7fa439 !important;
   color: #ffffff !important;
 }
 .btn-primary {
-    --bs-btn-color: #7639a4;
+    --bs-btn-color: #a4394b;
     --bs-btn-bg: #ffffff; }
 
 .btn-secondary {

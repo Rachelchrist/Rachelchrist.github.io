@@ -1,0 +1,43 @@
+.accordian {
+    border-color: transparent;
+}
+input {
+    display: none;
+}
+label {
+    font-size: 18px;
+    background-color: rgb(25, 45, 112);
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+}
+label:before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent 
+    transparent transparent white;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    transition: transform 0.25s;
+    transform-origin: 3px center;
+}
+.accordian div {
+    font-size: 16px;
+    height:0;
+    overflow:hidden;
+    opacity:0;
+}
+input:checked ~ label:before {
+    transform: rotate(90deg)
+}
+input:checked ~ div {
+    padding: 10px;
+    opacity: 1;
+    height: auto;
+}

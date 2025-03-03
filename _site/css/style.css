@@ -20,13 +20,13 @@
 }
 
 section:nth-child(odd) {
-  background-color: #a45739 !important;
+  background-color: #191a6b !important;
   color: #ffffff !important;
 }
 
 section:nth-child(even) {
   background-color: #ffffff !important;
-  color: #39a450 !important;
+  color: #191a6b !important;
 }
 
 .more_button {

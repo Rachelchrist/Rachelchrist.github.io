@@ -10,7 +10,7 @@ function styleSections() {
       section.classList[0] == 'footer') {
       // Show this section  
       section.style.display = 'block';
-      section.style.setProperty('background', '#7639a4', 'important');
+      section.style.setProperty('background', '#191a6b', 'important');
       section.style.setProperty('color', '#ffff', 'important');
     } else {
       section.style.display = 'none';

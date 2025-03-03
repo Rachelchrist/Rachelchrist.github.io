@@ -29,9 +29,10 @@ section:nth-child(even) {
   color: #191a6b !important;
 }
 
+
 .more_button {
   background: #FFFFFF !important;
-  color: #6A359C;
+  color: #4a9c35;
   padding: 10px;
   margin: 2rem;
   inline-size: -webkit-fill-available;
@@ -64,7 +65,7 @@ section:nth-child(even) {
 /* End  */
 
 .btn-primary {
-  border: none;
+  border-color: none;
   font-weight: bolder;
 }
 
@@ -93,11 +94,11 @@ form {
 
 }
 section:nth-child(odd) .nsub {
-  color: #263b80 !important;
+  color: #191a6b !important;
   background-color: #ffffff !important;
 }
 section:nth-child(even) .nsub {
-  background-color: #7fa439 !important;
+  background-color: #1a2980 !important;
   color: #ffffff !important;
 }
 .btn-primary {
@@ -105,9 +106,9 @@ section:nth-child(even) .nsub {
     --bs-btn-bg: #ffffff; }
 
 .btn-secondary {
-    --bs-btn-bg: #28e486;
+    --bs-btn-bg: #170d70;
     --bs-btn-color: #ffffff; }
 .btn:hover {
-    color: white;
-    background-color: #000000;
-    border-color: #ffffff;}
+    color: rgb(24, 18, 116);
+    background-color: #ffffff;
+    border-color: #1d1b81;}

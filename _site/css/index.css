@@ -8,7 +8,7 @@
 
 #information {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 50px;
   text-align: -webkit-center;
   padding: 40px;
@@ -21,7 +21,8 @@
   border-radius: 10px;
   transition: box-shadow .5s;
   padding: 10px;
-  width: 200px;
+  height: 180px;
+  width: 220px;
   max-width: 220px;
   font-size: 0.9rem;
   display: flex;
@@ -72,7 +73,7 @@
 
 #section_split p {
   line-height: 1.5;
-  color: #7639a4;
+  color: #77a0cf;
   font-size: 1.5rem;
 
 }

@@ -1,6 +1,6 @@
 /* This is the menu bar on top  */
 .navbar {
-  background-color: #171f69 !important;
+  background-color: #191a6b !important;
   border-bottom: 3px solid #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -29,6 +29,7 @@
   /* border: 3px solid #ffffff;
   border-radius: 50px; */
   border: none;
+  color:#ffffff;
 }
 
 .navbar-toggler:focus {

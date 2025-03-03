@@ -17,12 +17,12 @@ p {
     margin-bottom: 10px;
 }
 .modal-header, .modal-footer {
-      background: rgb(118, 57, 164) !important;
+      background: #191a6b !important;
   color: white !important;
 }
 .modal-body {
       background: white;
-    color: #7639a4;
+    color: #191a6b;
 }
 .btn-close {
       filter: invert(1);

@@ -217,9 +217,6 @@ Built-in styles and scripts for common pages.
 				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/js/index.js'>index.js</a></b></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/js/signup.js'>signup.js</a></b></td>
-			</tr>
-			<tr>
 				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/js/script.js'>script.js</a></b></td>
 			</tr>
 			<tr>
@@ -252,9 +249,6 @@ Built-in styles and scripts for common pages.
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/component/nav.html'>nav.html</a></b></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/AhmadWajid/TemplateNonProfitWebsite/blob/master/component/signup.html'>signup.html</a></b></td>
 			</tr>
 			</table>
 		</blockquote>

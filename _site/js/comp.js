@@ -7,13 +7,6 @@ $(document).ready(function() {
     $("header").prepend(data);
   });
 });
-$.ajax({
-  url: "component/signup.html",
-  async: false,
-  success: function(data) {
-    $(".sub").prepend(data);
-  }
-});
 $(document).ready(function() {
   // Element should exist here
   $(".nsub").click(function() {

@@ -94,8 +94,8 @@ form {
 
 }
 section:nth-child(odd) .nsub {
-  color: #191a6b !important;
-  background-color: #ffffff !important;
+  background-color: #1a2980 !important;
+  color: #ffffff !important;
 }
 section:nth-child(even) .nsub {
   background-color: #1a2980 !important;

@@ -10,6 +10,19 @@
   width: max-content;
 }
 
+.navbar .dropdown-toggle:focus,
+.navbar .dropdown-toggle:active {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.navbar .dropdown-toggle.active, 
+.navbar .dropdown-toggle.show {
+  color: #ffffff !important; 
+  background-color: transparent !important;
+}
+
 /* .dropdown-menu > li::before {
   content: "-";
   font-size: 10px;
@@ -43,6 +56,11 @@
 } */
 .nav-link {
   color: #ffffff;
+}
+
+.nav-link:hover {
+  color: lightgray;
+  text-decoration: underline;
 }
 
 .navbar-toggler-icon {

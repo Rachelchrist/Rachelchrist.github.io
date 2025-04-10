@@ -1,5 +1,14 @@
+
 <link rel="stylesheet" href="css/nav.css">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <script>
+    document.querySelector('.navbar').addEventListener('click', function(e) {
+      if (e.target.closest('a')) {
+        e.preventDefault();  // Prevent the default action (navigation)
+        window.location.href = e.target.closest('a').href;  // Trigger page reload with href
+      }
+    });
+  </script>
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><img class='logo_img' src='https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Duke_University_seal.svg/1200px-Duke_University_seal.svg.png'></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -32,10 +41,9 @@
         <li class="nav-item">
           <a class='nav-link' href="/resources.html">Resources</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class='nav-link' href="/jobs.html">Jobs</a>
-        </li> -->
       </ul>
     </div>
   </div>
 </nav>
+
+

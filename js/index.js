@@ -31,7 +31,7 @@ function displayhero(hero) {
             <p>${truncatedDesc}</p>
           </div>
         </div>
-      <a href="/our-work.html" class="more_button btn btn-primary btn-lg">Read More</a>
+      <a href="/public_benefits_guide.html" class="more_button btn btn-primary btn-lg">Public Benefits Guide</a>
         `;
 
   herobar.append(herodetail);

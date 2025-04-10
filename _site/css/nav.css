@@ -1,9 +1,21 @@
 /* This is the menu bar on top  */
 .navbar {
-  background-color: #191a6b !important;
+  background-color: #ffffff !important;
   border-bottom: 3px solid #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+body {
+  margin: 0; /* Prevent body margin from interfering */
+}
+
+.container-fluid {
+  max-width: 100%; /* Ensure it spans the full width */
 }
 
 .dropdown-menu {
@@ -19,7 +31,7 @@
 
 .navbar .dropdown-toggle.active, 
 .navbar .dropdown-toggle.show {
-  color: #ffffff !important; 
+  color: rgb(126, 126, 126) !important; 
   background-color: transparent !important;
 }
 
@@ -42,7 +54,7 @@
   /* border: 3px solid #ffffff;
   border-radius: 50px; */
   border: none;
-  color:#ffffff;
+  color:#191a6b;
 }
 
 .navbar-toggler:focus {
@@ -55,11 +67,11 @@
     border-bottom: solid;
 } */
 .nav-link {
-  color: #ffffff;
+  color: #191a6b;
 }
 
 .nav-link:hover {
-  color: lightgray;
+  color: rgb(126, 126, 126);
   text-decoration: underline;
 }
 

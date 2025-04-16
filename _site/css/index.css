@@ -9,9 +9,10 @@
 
 #information {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 50px;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 40px;
   text-align: -webkit-center;
+  place-items: center;
   padding: 40px;
 }
 
@@ -22,9 +23,9 @@
   border-radius: 10px;
   transition: box-shadow .5s;
   padding: 10px;
-  height: 180px;
-  width: 220px;
-  max-width: 220px;
+  height: 200px;
+  width: 300px;
+  max-width: 300px;
   font-size: 0.9rem;
   display: flex;
   justify-content: center;

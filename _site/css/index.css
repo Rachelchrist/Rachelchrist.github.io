@@ -10,7 +10,7 @@
 #information {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  grid-gap: 40px;
+  grid-gap: 50px;
   text-align: -webkit-center;
   place-items: center;
   padding: 40px;
@@ -23,7 +23,7 @@
   border-radius: 10px;
   transition: box-shadow .5s;
   padding: 10px;
-  height: 200px;
+  height: 180px;
   width: 300px;
   max-width: 300px;
   font-size: 0.9rem;
